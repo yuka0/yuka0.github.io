@@ -1,0 +1,72 @@
+/*
+** 各ページで共通の設定を記述する
+*/
+
+body {
+    /*width: 1000px;*/
+    margin: 0 auto;
+    color: #3D445E;
+}
+
+header {
+    font-size: 15px;
+    background-color:#3D445E;
+    color: #FFFFFF;
+    height: 50px;
+    /*margin-top: 10px;
+    border-radius: 5px;*/
+}
+
+.title {
+    float: left;
+    font-size: 30px;
+    padding-left: 10px;
+    line-height: 50px;
+}
+
+.title a {
+    text-decoration: none;
+    color: white;
+}
+
+.contents ul {
+    list-style: none;
+    float: left;
+    margin-top: 13px;
+}
+
+.contents ul li {
+    font-size: 20px;
+
+    float: left;
+    text-align: center;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.contents ul li a {
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+.contents ul li a:hover {
+    border-radius: 10px;
+    background-color: #4EB4B0;
+    color: #3D445E;
+}
+
+
+.main {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+footer {
+    color: white;
+    background-color: #3D445E;
+    /*border-radius: 5px;*/
+    padding-left: 10px;
+}
