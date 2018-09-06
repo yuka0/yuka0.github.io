@@ -10,7 +10,8 @@ body {
 
 header {
     font-size: 15px;
-    background-color:#3D445E;
+    font-family: Times New Roman;
+    background-color:#4EB4B0;
     color: #FFFFFF;
     height: 50px;
     /*margin-top: 10px;
@@ -36,7 +37,7 @@ header {
 }
 
 .contents ul li {
-    font-size: 20px;
+    font-size: 22px;
 
     float: left;
     text-align: center;
@@ -53,20 +54,24 @@ header {
 
 .contents ul li a:hover {
     border-radius: 10px;
-    background-color: #4EB4B0;
+    /*background-color: #4EB4B0;
+    color: #3D445E;*/
     color: #3D445E;
 }
 
 
 .main {
-    font-size: 20px;
+    font-size: 30px;
+    font-family: Times New Roman;
     text-align: center;
 }
 
 
 footer {
+    font-family: Times New Roman;
     color: white;
-    background-color: #3D445E;
+    background-color: #4EB4B0;
     /*border-radius: 5px;*/
     padding-left: 10px;
+    line-height: 30px;    
 }
