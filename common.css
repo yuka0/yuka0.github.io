@@ -4,9 +4,13 @@
 
 body {
     /*width: 1000px;*/
-    margin: 0 auto;
+    /*margin: 0 auto;*/
+    margin-top: 0;
+    margin-bottom: 0;
     color: #3D445E;
 }
+
+/* ヘッダとか */
 
 header {
     font-size: 15px;
@@ -16,6 +20,18 @@ header {
     height: 50px;
     /*margin-top: 10px;
     border-radius: 5px;*/
+}
+
+h2 {
+    display: inline-block;
+    border-left: solid 5px #4EB4B0;
+    padding-left: 4px;
+    border-bottom: solid 1px #4EB4B0;
+}
+
+h3 {
+    display: inline-block;
+    border-bottom: solid 1px #4EB4B0;
 }
 
 .title {
@@ -59,13 +75,24 @@ header {
     color: #3D445E;
 }
 
+/* ページのメイン部分 */
 
-.main {
+.pageBody {
+    margin: 0 20%;
+}
+
+.main h1 {
     font-size: 30px;
     font-family: Times New Roman;
     text-align: center;
 }
 
+.main p {
+    font-size: 18px;
+    font-family: Times New Roman;
+}
+
+/* フッタ */
 
 footer {
     font-family: Times New Roman;
